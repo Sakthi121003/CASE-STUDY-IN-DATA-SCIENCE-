@@ -8,8 +8,7 @@ A small machine learning project that predicts two things using real HR data:
 
 ```
 data/                        The two datasets (CSV files)
-notebooks/
-  analysis.ipynb              The main notebook — run this. Loads the data, trains
+analysis.ipynb                The main notebook — run this. Loads the data, trains
                                both models, and shows all results, charts, and tables.
 results/                      Output from the notebook: metrics, saved models, charts
 requirements.txt              Python packages needed to run the notebook
@@ -24,7 +23,7 @@ You need Python with Jupyter installed. Two easy ways:
 conda activate base
 jupyter notebook
 ```
-Then open `notebooks/analysis.ipynb` in the browser tab that opens, and run
+Then open `analysis.ipynb` in the browser tab that opens, and run
 **Kernel → Restart & Run All**.
 
 **Using a virtual environment:**
@@ -32,7 +31,7 @@ Then open `notebooks/analysis.ipynb` in the browser tab that opens, and run
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-jupyter notebook notebooks/analysis.ipynb
+jupyter notebook analysis.ipynb
 ```
 
 That's it — the notebook does everything: loads the data, trains the models, prints
