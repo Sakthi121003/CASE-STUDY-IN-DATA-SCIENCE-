@@ -1,0 +1,43 @@
+Top features - Random Forest (IBM HR Attrition)
+MonthlyIncome               0.075610
+Age                         0.061211
+TotalWorkingYears           0.051949
+DailyRate                   0.050422
+YearsAtCompany              0.049384
+OverTime_Yes                0.045913
+MonthlyRate                 0.045651
+HourlyRate                  0.043211
+DistanceFromHome            0.042757
+YearsWithCurrManager        0.042673
+NumCompaniesWorked          0.035392
+StockOptionLevel            0.034695
+YearsInCurrentRole          0.031214
+PercentSalaryHike           0.030636
+EnvironmentSatisfaction     0.026734
+JobLevel                    0.026225
+JobSatisfaction             0.025353
+YearsSinceLastPromotion     0.024167
+TrainingTimesLastYear       0.022074
+RelationshipSatisfaction    0.022024
+
+Top features - lightgbm_jobchange (HR Job Change)
+training_hours                                869
+city_development_index                        388
+gender_Male                                    90
+company_type_Pvt Ltd                           85
+enrolled_university_no_enrollment              64
+relevent_experience_No relevent experience     62
+company_size_50-99                             61
+education_level_Masters                        61
+major_discipline_STEM                          55
+experience_>20                                 52
+company_size_100-500                           46
+company_size_1000-4999                         43
+last_new_job_never                             43
+last_new_job_2                                 39
+company_size_10000+                            38
+company_size_<10                               38
+education_level_High School                    38
+company_type_Funded Startup                    38
+company_type_Public Sector                     35
+company_size_500-999                           34

@@ -1,0 +1,8 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+joblib
+notebook
+ipykernel
+lightgbm  # analysis.ipynb falls back to Logistic Regression if this fails to install
